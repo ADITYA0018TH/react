@@ -1,8 +1,11 @@
+import Exp from "./Exp";
 function App() {
 
   return (
-    <h1>Aditya Raj</h1>
+    <>
+    <Exp />
+    </>
   )
 }
 
-export default App
+export default App;
