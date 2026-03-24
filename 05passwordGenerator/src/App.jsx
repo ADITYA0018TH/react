@@ -48,7 +48,7 @@ function App() {
             ref={passwordRef}
           />
           <button
-            className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'
+            className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded hover:cursor-pointer hover:shadow-lg hover:p-6 transition-all duration-300 hover:bg-pink-500 hover:shadow-pink-500/50 border-none outline-none rounded-l-none'
             onClick={copyPasswordToClipboard}
           >
             Copy
